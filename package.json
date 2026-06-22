@@ -1,3 +1,13 @@
-"scripts": {
-  "start": "node index.js"
+{
+  "name": "meu-webhook-gemini",
+  "version": "1.0.0",
+  "description": "Webhook do Dialogflow integrado ao Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "latest",
+    "express": "latest"
+  }
 }
